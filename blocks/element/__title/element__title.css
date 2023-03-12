@@ -3,7 +3,6 @@
     width: calc(100% - 21px);
     box-sizing: border-box;
     margin: 0 0 0 21px;
-
     align-self: center;
     justify-items: center;
     text-overflow: ellipsis;

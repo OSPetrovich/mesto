@@ -7,9 +7,6 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    /*width: fit-content;*/
-    /*width: 100%;*/
-    /*width: calc(100vw - 420px);*/
     max-width: fit-content;
 }
 
@@ -18,7 +15,7 @@
         width: calc(100vw - 420px);
         max-width: fit-content;
     }
-  }
+}
 
 @media screen and (max-width: 600px) {
     .profile__name {

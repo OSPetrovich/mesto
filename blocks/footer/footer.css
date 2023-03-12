@@ -15,13 +15,13 @@
     .footer {
         max-width: calc(880px + (100vw - 940px));
     }
-  }
-  
-@media screen and (max-width: 610px) {
-.footer {
-    font-size: 14px;
-    line-height: 17px;
-    padding-bottom: 36px;
-    margin: 48px 0 0 19px;
 }
+
+@media screen and (max-width: 610px) {
+    .footer {
+        font-size: 14px;
+        line-height: 17px;
+        padding-bottom: 36px;
+        margin: 48px 0 0 19px;
+    }
 }
