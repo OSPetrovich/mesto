@@ -1,0 +1,5 @@
+.button-reaction {
+    background-color: transparent;
+    cursor: pointer;
+    transition: opacity .5s ease;
+}
