@@ -1,7 +1,6 @@
 .profile__edit-button {
 	grid-area: profile__edit-button;
 	box-sizing: border-box;
-	background-position: left bottom;
 	display: block;
 	width: 24px;
 	height: 24px;
