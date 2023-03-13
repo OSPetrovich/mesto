@@ -4,8 +4,8 @@
     border-bottom: 1px solid rgba(0, 0, 0, .2);
     font-size: 14px;
     line-height: 17px;
-    margin-bottom: 22px;
-    padding-bottom: 6px;
+    margin-bottom: 24px;
+    padding: 3px 0 3px;
 }
 
 .popup__input:last-of-type {

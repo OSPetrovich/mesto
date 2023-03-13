@@ -14,7 +14,9 @@
     .profile__description {
         justify-self: center;
         text-align: center;
+        max-width: 100%;
         font-size: 14px;
         line-height: 17px;
+        margin: 0 0 33px;
     }
 }

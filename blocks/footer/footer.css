@@ -1,14 +1,7 @@
 .footer {
     max-width: 880px;
-    height: 18px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    color: #545454;
-    margin: 67px auto 0;
-    padding-bottom: 60px;
+    min-height: 18px;
+    margin: 0 auto;
 }
 
 @media (max-width: 940px) {
@@ -17,11 +10,8 @@
     }
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 619px) {
     .footer {
-        font-size: 14px;
-        line-height: 17px;
-        padding-bottom: 36px;
-        margin: 48px 0 0 19px;
+        max-width: calc(100vw - 38px);
     }
 }
