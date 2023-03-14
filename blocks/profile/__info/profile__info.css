@@ -11,12 +11,12 @@
 
 @media screen and (max-width: 600px) {
   .profile__info {
-    min-width: 150px;
-    width: calc(100vw - 38px);
+    /*min-width: 150px;*/
+    /*width: calc(100vw - 38px);*/
     grid-template-areas:
     ". profile__name profile__edit-button"
     "profile__description profile__description profile__description";
-    grid-template-columns: 36px 1fr 36px;
-    gap: 0px 5px;
+    grid-template-columns: 0px 1fr 18px;
+    gap: 0px 10px;
   }
 }

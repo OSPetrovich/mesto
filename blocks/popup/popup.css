@@ -9,9 +9,3 @@
     left: 0;
     background: rgba(0, 0, 0, .5);
 }
-
-@media screen and (max-width: 610px) {
-    .popup {
-        top: -122px;
-    }
-}

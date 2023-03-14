@@ -12,3 +12,9 @@
       gap: 20.5px 0px;
     }
   }
+
+  @media screen and (max-width: 319px) {
+    .elements__list {
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+  }
