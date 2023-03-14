@@ -1,9 +1,11 @@
 .header {
-  border: none;
+  max-width: 880px;
+  margin: 0 auto;
+  border-bottom: rgb(84, 84, 84, .7) 1px solid;
 }
 
 @media screen and (max-width: 610px) {
   .header {
-    border-bottom: rgb(84, 84, 84, .7) 1px solid;
+    max-width: 100vw;
   }
 }
