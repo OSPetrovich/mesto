@@ -13,4 +13,5 @@
       "element__title element__like-button";
     justify-items: center;
     align-items: center;
+    position: relative;
 }

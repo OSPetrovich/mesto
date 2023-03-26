@@ -24,58 +24,13 @@
             <button class="profile__edit-button button-reaction" type="button" aria-label="Редактировать профиль"></button>
             <p class="profile__description">Исследователь океана</p>
           </div>
-          <button class="profile__add-button button-reaction" type="button" aria-label="Добавить профиль"></button>
+          <button class="profile__add-button button-reaction" type="button" aria-label="Добавить карточку места"></button>
         </section>
 
         <section class="elements" aria-label="Визитные карточки мест">
           <ul class="elements__list">
-            <li>
-              <article class="element">
-                <img src="./images/mesto-dombay.jpg" alt="Домбай" class="element__image">
-                <h2 class="element__title">Домбай</h2>
-                <button class="element__like-button button-reaction" type="button" aria-label="Поставить лайк"></button>
-              </article>
-            </li>
 
-            <li>
-              <article class="element">
-                <img src="./images/mesto-elbrus-mount.jpg" alt="Гора Эльбрус" class="element__image">
-                <h2 class="element__title">Гора Эльбрус</h2>
-                <button class="element__like-button button-reaction" type="button" aria-label="Поставить лайк"></button>
-              </article>
-            </li>
 
-            <li>
-              <article class="element">
-                <img src="./images/mesto-karachaevsk.jpg" alt="Карачаевск" class="element__image">
-                <h2 class="element__title">Карачаевск</h2>
-                <button class="element__like-button button-reaction" type="button" aria-label="Поставить лайк"></button>
-              </article>
-            </li>
-
-            <li>
-              <article class="element">
-                <img src="./images/mesto-urai-cherch.jpg" alt="Урай, ХМАО-Югра" class="element__image">
-                <h2 class="element__title">Урай, ХМАО-Югра</h2>
-                <button class="element__like-button button-reaction" type="button" aria-label="Поставить лайк"></button>
-              </article>
-            </li>
-
-            <li>
-              <article class="element">
-                <img src="./images/mesto-Hantyi-Mansiysk.jpg" alt="Ханты-Мансийск" class="element__image">
-                <h2 class="element__title">Ханты-Мансийск</h2>
-                <button class="element__like-button button-reaction" type="button" aria-label="Поставить лайк"></button>
-              </article>
-            </li>
-
-            <li>
-              <article class="element">
-                <img src="./images/mesto-alania.jpg" alt="Республика Осетия - Алания" class="element__image">
-                <h2 class="element__title">Республика Осетия - Алания</h2>
-                <button class="element__like-button button-reaction" type="button" aria-label="Поставить лайк"></button>
-              </article>
-            </li>
           </ul>
         </section>
       </main>
@@ -84,21 +39,60 @@
         <p class="footer__copyright">&copy;&nbsp;2023&nbsp;Mesto Russia</p>
       </footer>
 
-      <div class="popup">
+
+      <!-- popup profile edit -->
+      <div class="popup popup__profile-edit">
         <div class="popup__container">
-          <button class="popup__close-button button-reaction" type="button" aria-label="Закрыть редактирование профиля"></button>
+          <button class="popup__close-button popup__close-button_profile-edit button-reaction" type="button" aria-label="Закрыть редактирование профиля"></button>
           <h2 class="popup__title">Редактировать профиль</h2>
-          <form class="popup__form" name="formPopup">
+          <form class="popup__form popup__form_type_profile-edit" name="formPopup">
             <input type="text" class="popup__input popup__input_type_name" name="formPopupName"
               placeholder="Укажите Ваше имя" required>
             <input type="text" class="popup__input popup__input_type_description" name="formPopupDescription"
               placeholder="Укажите род деятельности" required>
-            <button class="popup__button button-reaction" type="submit">Сохранить</button>
+            <button class="popup__button-submit button-reaction" type="submit">Сохранить</button>
           </form>
         </div>
       </div>
 
+
+      <!-- popup element add -->
+      <div class="popup popup__element-add">
+        <div class="popup__container">
+          <button class="popup__close-button popup__close-button_element-add button-reaction" type="button" aria-label="Закрыть окно добавления элемента"></button>
+          <h2 class="popup__title">Новое место</h2>
+          <form class="popup__form popup__form_type_element-add" name="formPopup">
+            <input type="text" class="popup__input popup__input_type_title" name="formPopupTitle"
+              placeholder="Название" required>
+            <input type="text" class="popup__input popup__input_type_image-src" name="formPopupImageSrc"
+              placeholder="Ссылка на картинку" required>
+            <button class="popup__button-submit button-reaction" type="submit">Создать</button>
+          </form>
+        </div>
+      </div>
+
+
+      <!-- popup image -->
+      <div class="popup popup__element-image">
+        <div class="popup__image-container">
+          <button class="popup__close-button popup__close-button_element-image button-reaction" type="button" aria-label="Закрыть окно просмотра"></button>
+          <img class="popup__image-view" src="https://i.ytimg.com/vi/58Qh1XcZaDA/hqdefault.jpg" alt="Фото места">
+          <p class="popup__image-title"></p>
+        </div>
+      </div>
+
     </div>
+
+    <template id="card-template">
+      <li class="card">
+        <article class="element">
+          <img src="https://aistenok76.ru/upload/iblock/7de/7debef50bffd656f5357dc0447a281df.jpg" alt="Описание картинки" class="element__image">
+          <h2 class="element__title">Название места</h2>
+          <button class="element__like-button button-reaction" type="button" aria-label="Поставить лайк"></button>
+          <button class="element__button-delete button-reaction" type="button" aria-label="Удалить элемент"></button>
+        </article>
+      </li>
+    </template>
 
     <script src="scripts/index.js"></script>
 
