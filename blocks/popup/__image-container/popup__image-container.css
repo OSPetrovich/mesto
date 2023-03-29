@@ -1,15 +1,19 @@
 .popup__image-container {
-    width: 430px;
-    border-radius: 10px;
-    position: relative;
-    background-color: white;
-    padding: 35px;
+    margin: 0;
+    padding: 0;
+    max-width: 75vw;
+    max-height: 75vh;
+    background-color: transparent;
+    justify-self: center;
+    object-fit: cover;
     box-sizing: border-box;
+    position: relative;
   }
+
   
   @media screen and (max-width: 610px) {
     .popup__content {
-      width: 282px;
+      min-width: 282px;
       padding: 23px 22px 24px 22px;
       display: flex;
       flex-direction: column;

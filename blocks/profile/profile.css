@@ -4,7 +4,7 @@
     grid-template-columns: 120px 1fr 150px;
     gap: 0px 30px;
     grid-template-areas:
-      "profile__avatar profile__info button__add";
+      "profile__avatar profile__info profile__add-card";
     justify-content: start;
     align-content: center;
     justify-items: start;
@@ -27,7 +27,7 @@
       grid-template-areas:
         "profile__avatar"
         "profile__info"
-        "button__add";
+        "profile__add-card";
       gap: 0;
       justify-content: center;
       justify-items: center;

@@ -24,7 +24,7 @@
             <button class="button profile__edit" type="button" aria-label="Редактировать профиль"></button>
             <p class="profile__description">Исследователь океана</p>
           </div>
-          <button class="button button__add" type="button" aria-label="Добавить карточку места"></button>
+          <button class="button profile__add-card" type="button" aria-label="Добавить карточку места"></button>
         </section>
 
         <section class="elements" aria-label="Визитные карточки мест">
@@ -40,9 +40,9 @@
 
 
       <!-- popup profile edit -->
-      <div class="popup popup__profile">
+      <div class="popup profile__popup">
         <div class="popup__container">
-          <button class="button button__close button__close_profile" type="button" aria-label="Закрыть редактирование профиля"></button>
+          <button class="button popup__close popup__close_profile" type="button" aria-label="Закрыть редактирование профиля"></button>
           <h2 class="popup__title">Редактировать профиль</h2>
           <form class="form form__profile" name="formProfile">
             <input type="text" class="form__input form__input_name" name="inputProfileName"
@@ -58,7 +58,7 @@
       <!-- popup element add -->
       <div class="popup popup__element">
         <div class="popup__container">
-          <button class="button button__close button__close_element" type="button" aria-label="Закрыть окно добавления элемента"></button>
+          <button class="button popup__close popup__close_element" type="button" aria-label="Закрыть окно добавления элемента"></button>
           <h2 class="popup__title">Новое место</h2>
           <form class="form form__element" name="formElement">
             <input type="text" class="form__input form__input_title" name="inputElementTitle"
@@ -74,7 +74,7 @@
       <!-- popup image -->
       <div class="popup popup__image">
         <div class="popup__image-container">
-          <button class="button button__close button__close_view" type="button" aria-label="Закрыть окно просмотра"></button>
+          <button class="button popup__close popup__close_view" type="button" aria-label="Закрыть окно просмотра"></button>
           <img class="popup__image-view" src="./images/image-not-found.jpg" alt="Фото места">
           <p class="popup__image-title"></p>
         </div>

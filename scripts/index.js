@@ -1,8 +1,8 @@
 const profileEditButton = document.querySelector('.profile__edit');
-const popupProfile = document.querySelector('.popup__profile');
-const popupCloseButtonProfile = document.querySelector('.button__close_profile');
-const popupCloseButtonElement = document.querySelector('.button__close_element');
-const popupCloseButtonImage = document.querySelector('.button__close_view');
+const popupProfile = document.querySelector('.profile__popup');
+const popupCloseButtonProfile = document.querySelector('.popup__close_profile');
+const popupCloseButtonElement = document.querySelector('.popup__close_element');
+const popupCloseButtonImage = document.querySelector('.popup__close_view');
 const popupImage = document.querySelector('.popup__image');
 const formProfile = document.querySelector('.form__profile');
 const formElement = document.querySelector('.form__element');
@@ -11,14 +11,13 @@ const inputProfileDescription = document.querySelector('.form__input_description
 const profileName = document.querySelector('.profile__name');
 const profileDescription = document.querySelector('.profile__description');
 const elementTitle = document.querySelector('.element__title');
-const elementAdd = document.querySelector('.button__add');
+const elementAdd = document.querySelector('.profile__add-card');
 const popupElementAdd = document.querySelector('.popup__element');
 const inputElementTitle = document.querySelector('.form__input_title');
 const inputElementImageSrc = document.querySelector('.form__input_image-src');
 const section = document.querySelector('.elements__list'); 
 const itemTemplate = document.querySelector('#template').content; 
 const itemTemplateCard = itemTemplate.querySelector('.card').cloneNode(true);
-//const deleteButton = itemTemplateCard.querySelector('.button__delete');
 
 const initialCards = [
   {
