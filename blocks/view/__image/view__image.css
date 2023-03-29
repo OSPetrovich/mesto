@@ -1,0 +1,11 @@
+.view__image {
+    max-width: 75vw;
+    max-height: 75vh;
+    position: relative;
+}
+
+@media screen and (max-width: 610px) {
+    .view__image {
+        max-width: calc(100vw - 80px);
+    }
+}
