@@ -1,5 +1,5 @@
-.button__edit {
-	grid-area: button__edit;
+.profile__edit {
+	grid-area: profile__edit;
 	box-sizing: border-box;
 	display: block;
 	width: 24px;
@@ -14,12 +14,12 @@
 	margin: 0 0 8px;
 }
 
-.button__edit:hover {
+.profile__edit:hover {
 	opacity: .6;
 }
 
 @media screen and (max-width: 600px) {
-	.button__edit {
+	.profile__edit {
 		width: 18px;
 		height: 18px;
 		background-size: 7.5px 7.5px;

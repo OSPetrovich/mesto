@@ -22,7 +22,7 @@
 @import url(../blocks/button/__close/_profile/button__close_profile.css);
 @import url(../blocks/button/__close/_view/button__close_view.css);
 @import url(../blocks/button/__delete/button__delete.css);
-@import url(../blocks/button/__edit/button__edit.css);
+@import url(../blocks/profile/__edit/profile__edit.css);
 @import url(../blocks/button/__like/button__like.css);
 @import url(../blocks/button/__like/_active/button__like_active.css);
 @import url(../blocks/button/__submit/button__submit.css);
