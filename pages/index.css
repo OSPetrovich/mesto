@@ -18,9 +18,7 @@
 @import url(../blocks/profile/__avatar/profile__avatar.css);
 @import url(../blocks/profile/__edit/profile__edit.css);
 
-/*@import url(../blocks/profile/__popup/profile__popup.css);*/
-
-@import url(../blocks/profile/__form/profile__form.css);
+@import url(../blocks/form/_profile/form_profile.css);
 @import url(../blocks/profile/__add-card/profile__add-card.css);
 @import url(../blocks/profile/__submit/profile__submit.css);
 
