@@ -3,7 +3,7 @@ const popupProfile = document.querySelector('.popup_edit');
 const popupCloseButtonProfile = document.querySelector('.popup__close_profile');
 const popupCloseButtonElement = document.querySelector('.popup__close_element');
 const popupCloseButtonImage = document.querySelector('.popup__close_view');
-const popupImage = document.querySelector('.view__popup');
+const popupImage = document.querySelector('.popup_view');
 const formProfile = document.querySelector('.form_profile');
 const formElement = document.querySelector('.form_element');
 const inputProfileName = document.querySelector('.form__input_name');
@@ -63,7 +63,6 @@ function createCardElement(name, link) {
   const elementImage = itemTemplateCards.querySelector('.element__image');
   const deleteButton = itemTemplateCards.querySelector('.button__delete');
   const likeButton = itemTemplateCards.querySelector('.button__like');
-  const popupImage = document.querySelector('.view__popup');
   const elementTitle = itemTemplateCards.querySelector('.element__title');
   likeButton.addEventListener('click', function () {
     likeButton.classList.toggle('button__like_active');

@@ -1,4 +1,4 @@
-.view__container {
+.popup__container-view {
     margin: 0;
     padding: 0;
     max-width: 75vw;
@@ -11,7 +11,7 @@
   }
 
   @media screen and (max-width: 610px) {
-    .view__container {
+    .popup__container-view {
       max-width: calc(100vw - 80px);
       display: flex;
       flex-direction: column;
