@@ -1,4 +1,4 @@
-.profile__submit {
+.popup_edit_submit {
     height: 50px;
     background-color: rgba(0, 0, 0);
     border: none;
@@ -13,12 +13,12 @@
     transition: opacity .5s ease;
 }
 
-.profile__submit:hover {
+.popup_edit_submit:hover {
     opacity: .8;
 }
 
 @media screen and (max-width: 610px) {
-    .profile__submit {
+    .popup_edit_submit {
         height: 46px;
         font-size: 14px;
         line-height: 17px;

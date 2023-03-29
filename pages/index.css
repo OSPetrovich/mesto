@@ -20,7 +20,7 @@
 
 @import url(../blocks/form/_profile/form_profile.css);
 @import url(../blocks/profile/__add-card/profile__add-card.css);
-@import url(../blocks/profile/__submit/profile__submit.css);
+@import url(../blocks/popup/_edit_submit/popup_edit_submit.css);
 
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/__delete/button__delete.css);
