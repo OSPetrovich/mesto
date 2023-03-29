@@ -69,9 +69,9 @@ function createCardElement(name, link) {
   });
   elementImage.addEventListener('click', function () {
     popupImage.classList.add('popup_opened');
-    document.querySelector('.view__image').src = link;
-    document.querySelector('.view__image').alt = name;
-    document.querySelector('.view__title').textContent = name;
+    document.querySelector('.popup__view-image').src = link;
+    document.querySelector('.popup__view-image').alt = name;
+    document.querySelector('.popup__view-title').textContent = name;
   });
   deleteButton.addEventListener('click', function (evt) {
     itemTemplateCards.remove();
