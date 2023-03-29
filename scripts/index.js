@@ -1,5 +1,5 @@
 const profileEditButton = document.querySelector('.profile__edit');
-const popupProfile = document.querySelector('.profile__popup');
+const popupProfile = document.querySelector('.popup__profile');
 const popupCloseButtonProfile = document.querySelector('.popup__close_profile');
 const popupCloseButtonElement = document.querySelector('.popup__close_element');
 const popupCloseButtonImage = document.querySelector('.popup__close_view');
