@@ -1,4 +1,4 @@
-.element__submit {
+.popup__element-add-submit {
     height: 50px;
     background-color: rgba(0, 0, 0);
     border: none;
@@ -13,12 +13,12 @@
     transition: opacity .5s ease;
 }
 
-.element__submit:hover {
+.popup__element-add-submit:hover {
     opacity: .8;
 }
 
 @media screen and (max-width: 610px) {
-    .element__submit {
+    .popup__element-add-submit {
         height: 46px;
         font-size: 14px;
         line-height: 17px;
