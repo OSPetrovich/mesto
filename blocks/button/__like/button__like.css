@@ -1,0 +1,19 @@
+.button__like {
+    grid-area: button__like;
+    object-fit: cover;
+    position: relative;
+    object-position: 50% 50%;
+    background-size: 22px 19px;
+    background: url(../../../images/button__like.svg) center no-repeat;
+    width: 64px;
+    height: 79px;
+    align-self: center;
+    align-items: center;
+    color: #000;
+    border: none;
+    padding: 0;
+}
+
+.button__like:hover {
+	opacity: .5;
+}

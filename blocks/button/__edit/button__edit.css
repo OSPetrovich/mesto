@@ -1,0 +1,28 @@
+.button__edit {
+	grid-area: button__edit;
+	box-sizing: border-box;
+	display: block;
+	width: 24px;
+	height: 24px;
+	background-color: transparent;
+	background-image: url('../../../images/button__edit.svg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 10px 10px;
+	border: 1px solid #fff;
+	flex-shrink: 0;
+	margin: 0 0 8px;
+}
+
+.button__edit:hover {
+	opacity: .6;
+}
+
+@media screen and (max-width: 600px) {
+	.button__edit {
+		width: 18px;
+		height: 18px;
+		background-size: 7.5px 7.5px;
+		margin: 0 0 14px;
+	}
+}

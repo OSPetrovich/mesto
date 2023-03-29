@@ -16,7 +16,6 @@
         font-size: 27px;
         line-height: 33px;
         max-width: calc(100vw - 131px);
-        /*min-width: 50px;*/
         justify-self: center;
         text-align: center;
     }
